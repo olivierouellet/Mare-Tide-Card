@@ -8,6 +8,9 @@ jobs:
   release:
     name: Prepare release
     runs-on: ubuntu-latest
+    # Needed to attach the built card to the GitHub release.
+    permissions:
+      contents: write
     env:
       COREPACK_ENABLE_DOWNLOAD_PROMPT: 0
     steps:
