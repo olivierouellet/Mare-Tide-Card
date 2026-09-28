@@ -1,6 +1,10 @@
-# Mare Tide Card
+<p align="center">
+  <img src="https://raw.githubusercontent.com/olivierouellet/Mare/main/assets/icon.svg" alt="Mare logo" width="128" height="128">
+</p>
 
-**[English](#english) · [Français](#français)**
+<h1 align="center">Mare Tide Card</h1>
+
+<p align="center"><b><a href="#english">English</a> · <a href="#français">Français</a></b></p>
 
 > ### 🌊 Why “Mare”? · Pourquoi « Mare » ?
 >
@@ -24,7 +28,7 @@ A Home Assistant dashboard card for Canadian tides from **Fisheries and Oceans C
 
 ### Two ways to get the data
 
-1. **From the Mare integration (recommended).** Install the [Mare integration](../README.md) and pick its *tide level* sensor. Tides are downloaded once by Home Assistant, and you also get sensors for automations. To change the station, use *Configure* on the integration.
+1. **From the Mare integration (recommended).** Install the [Mare integration](https://github.com/olivierouellet/Mare) and pick its *tide level* sensor. Tides are downloaded once by Home Assistant, and you also get sensors for automations. To change the station, use *Configure* on the integration.
 2. **Directly from DFO.** Pick a station in the card editor; no integration needed. Each open dashboard downloads the predictions itself (cached for 6 hours).
 
 ### Installation
@@ -107,7 +111,7 @@ Une carte de tableau de bord Home Assistant pour les marées canadiennes de **P�
 
 ### Deux façons d’obtenir les données
 
-1. **Avec l’intégration Mare (recommandé).** Installez l’[intégration Mare](../README.md#français) et choisissez son capteur de *niveau de marée*. Home Assistant télécharge les marées une seule fois, et vous obtenez aussi des capteurs pour vos automatisations. Pour changer de station, utilisez *Configurer* sur l’intégration.
+1. **Avec l’intégration Mare (recommandé).** Installez l’[intégration Mare](https://github.com/olivierouellet/Mare#français) et choisissez son capteur de *niveau de marée*. Home Assistant télécharge les marées une seule fois, et vous obtenez aussi des capteurs pour vos automatisations. Pour changer de station, utilisez *Configurer* sur l’intégration.
 2. **Directement de MPO.** Choisissez une station dans l’éditeur de la carte; aucune intégration requise. Chaque tableau de bord ouvert télécharge lui-même les prédictions (conservées en cache 6 heures).
 
 ### Installation
