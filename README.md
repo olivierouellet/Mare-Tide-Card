@@ -6,6 +6,10 @@
 
 <p align="center"><b><a href="#english">English</a> · <a href="#français">Français</a></b></p>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/olivierouellet/Mare-Tide-Card/main/images/screenshot.png" alt="Mare Tide Card: a 24-hour card in English and a 48-hour card in French, with every high and low tide labelled" width="800">
+</p>
+
 > ### 🌊 Why “Mare”? · Pourquoi « Mare » ?
 >
 > *Mare* is Latin for **sea**. The name comes from Canada’s motto, ***A mari usque ad mare*** (“from sea to sea”, Psalm 72:8), because the card covers tide stations on every Canadian coast. It is pronounced **MAH-reh** (/ˈma.re/), two syllables: not the English *mare* (a horse), and not the French *mare* (a pond).

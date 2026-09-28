@@ -314,6 +314,20 @@ if (params.has('direct')) {
   editorConfig = { type: 'custom:mare-tide-card', station_id: '5cebf1df3d0f4a073c4bbcbb', station_name: 'Halifax' };
 }
 if (params.get('only') === 'editor') CASES.length = 0;
+// ?shot: two clean cards for the README screenshot, at a fixed time.
+if (params.has('shot')) {
+  CASES.splice(
+    0,
+    CASES.length,
+    { title: '', config: { entity: 'sensor.halifax_tide_level', time_format: '24' } },
+    {
+      title: '',
+      config: { entity: 'sensor.halifax_tide_level', span: 'rolling', hours: 48, language: 'fr', color: 'teal' },
+    },
+  );
+  document.body.classList.add('shot');
+  offset = fixtureNow - realNow();
+}
 hass = makeHass($<HTMLSelectElement>('lang').value, $<HTMLSelectElement>('tf').value);
 
 $<HTMLInputElement>('dark').onchange = (ev) =>
