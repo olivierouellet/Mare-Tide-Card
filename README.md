@@ -41,9 +41,14 @@ A Home Assistant dashboard card for Canadian tides from **Fisheries and Oceans C
 
 ### Installation
 
-**HACS (custom repository)**
-1. HACS → ⋮ → *Custom repositories* → add this repository with the type **Dashboard**.
-2. Install **Mare Tide Card**, then reload your browser.
+**With HACS (recommended)**
+
+[![Open your Home Assistant instance and open this repository in HACS.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=olivierouellet&repository=Mare-Tide-Card&category=plugin)
+
+1. In Home Assistant, open **HACS** → **⋮** (top right) → **Custom repositories**.
+2. Repository: `https://github.com/olivierouellet/Mare-Tide-Card`, type: **Dashboard**, then **Add**. (The button above does steps 1 and 2 for you.)
+3. Search for **Mare Tide Card**, open it and click **Download**. HACS adds the dashboard resource for you.
+4. Reload your browser (or restart the Home Assistant app).
 
 **Manual**
 1. Download `mare-tide-card.js` from the latest release (or build it: `yarn install && yarn build`, then use `dist/mare-tide-card.js`).
@@ -124,9 +129,14 @@ Une carte de tableau de bord Home Assistant pour les marées canadiennes de **P�
 
 ### Installation
 
-**HACS (dépôt personnalisé)**
-1. HACS → ⋮ → *Dépôts personnalisés* → ajoutez ce dépôt avec le type **Dashboard** (tableau de bord).
-2. Installez **Mare Tide Card**, puis rechargez votre navigateur.
+**Avec HACS (recommandé)**
+
+[![Ouvrir votre instance Home Assistant et ce dépôt dans HACS.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=olivierouellet&repository=Mare-Tide-Card&category=plugin)
+
+1. Dans Home Assistant, ouvrez **HACS** → **⋮** (en haut à droite) → **Dépôts personnalisés**.
+2. Dépôt : `https://github.com/olivierouellet/Mare-Tide-Card`, type : **Dashboard** (tableau de bord), puis **Ajouter**. (Le bouton ci-dessus fait les étapes 1 et 2 pour vous.)
+3. Cherchez **Mare Tide Card**, ouvrez-la et cliquez sur **Télécharger**. HACS ajoute la ressource du tableau de bord pour vous.
+4. Rechargez votre navigateur (ou redémarrez l’application Home Assistant).
 
 **Manuelle**
 1. Téléchargez `mare-tide-card.js` depuis la dernière version publiée (ou compilez-le : `yarn install && yarn build`, puis prenez `dist/mare-tide-card.js`).
