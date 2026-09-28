@@ -7,7 +7,11 @@
 <p align="center"><b><a href="#english">English</a> · <a href="#français">Français</a></b></p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/olivierouellet/Mare-Tide-Card/main/images/screenshot.png" alt="Mare Tide Card: a 24-hour card in English and a 48-hour card in French, with every high and low tide labelled" width="800">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/olivierouellet/Mare-Tide-Card/main/images/screenshot-dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/olivierouellet/Mare-Tide-Card/main/images/screenshot-light.png">
+    <img src="https://raw.githubusercontent.com/olivierouellet/Mare-Tide-Card/main/images/screenshot-light.png" alt="Mare Tide Card: a 24-hour card in English and a 48-hour card in French, with every high and low tide labelled" width="800">
+  </picture>
 </p>
 
 > ### 🌊 Why “Mare”? · Pourquoi « Mare » ?
