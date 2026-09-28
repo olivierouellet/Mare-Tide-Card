@@ -1,4 +1,4 @@
-export const CARD_VERSION = '0.2.1';
+export const CARD_VERSION = '1.0.0';
 export const CARD_TAG = 'mare-tide-card';
 export const EDITOR_TAG = 'mare-tide-card-editor';
 export const PICKER_TAG = 'mare-station-picker';
