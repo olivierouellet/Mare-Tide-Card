@@ -14,7 +14,7 @@ export interface HomeAssistant {
   entities?: Record<string, { platform?: string }>;
 }
 
-export type Language = 'auto' | 'en' | 'fr';
+export type Language = 'auto' | 'en' | 'fr' | 'es' | 'es-419' | 'nl' | 'nb';
 export type TimeFormat = 'auto' | '12' | '24';
 export type SpanMode = 'day' | 'rolling';
 export type ExtremeLabel = 'height_time' | 'height' | 'time';

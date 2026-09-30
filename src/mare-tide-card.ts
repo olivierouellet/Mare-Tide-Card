@@ -34,7 +34,7 @@ w.customCards.push({
   type: CARD_TAG,
   name: 'Mare Tide Card',
   description:
-    'Tides with every high and low labelled, from the Mare integration or directly from DFO / MPO. English / français.',
+    'Tides with every high and low labelled, from the Mare integration or directly from DFO / MPO. EN / FR / ES / NL / NB.',
   preview: true,
 });
 
