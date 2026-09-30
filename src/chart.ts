@@ -171,7 +171,8 @@ function yTicks(min: number, max: number): number[] {
   const range = max - min;
   const step = [0.1, 0.2, 0.25, 0.5, 1, 2, 2.5, 5, 10].find((s) => range / s <= 4) ?? 10;
   const ticks: number[] = [];
-  for (let v = Math.ceil(min / step) * step; v <= max + 1e-9; v += step) ticks.push(Math.round(v * 1000) / 1000);
+  // "+ 0" turns -0 (Math.ceil of a small negative) into 0, which would otherwise print as "-0".
+  for (let v = Math.ceil(min / step) * step; v <= max + 1e-9; v += step) ticks.push(Math.round(v * 1000) / 1000 + 0);
   return ticks;
 }
 
