@@ -31,7 +31,7 @@ A Home Assistant dashboard card for tide predictions: every country the [Mare in
 - Current level, rising/falling trend, and the next high and low in the header.
 - A marker for the current time, and a tooltip when you hover or drag across the chart.
 - A visual editor, including a **station picker** that lists the stations nearest your home, can use your device’s position, and searches every station.
-- **English and French**, following Home Assistant’s language or set per card.
+- **English, French, Spanish (Spain and Latin America), Dutch and Norwegian Bokmål**, following Home Assistant’s language or set per card.
 - Follows your theme (light and dark) and your 12/24-hour setting.
 
 ### Two ways to get the data
@@ -76,7 +76,7 @@ Then add the card from the card picker (search for “Mare”).
 | `extreme_label` | `height_time` | `height_time`, `height` or `time`. With long spans on narrow cards, labels automatically shorten to the height, and any that still overlap are hidden. |
 | `show_now` | `true` | Show the current time on the chart. |
 | `precision` | `2` | Decimals for heights (0 to 3). |
-| `language` | `auto` | `auto` (Home Assistant’s language), `en` or `fr`. |
+| `language` | `auto` | `auto` (Home Assistant’s language), `en`, `fr`, `es`, `es-419`, `nl` or `nb`. |
 | `time_format` | `auto` | `auto` (your Home Assistant profile), `24` (15:04, or 15 h 04 in French) or `12` (3:04 p.m.). |
 
 ### Examples
@@ -119,7 +119,7 @@ Une carte de tableau de bord Home Assistant pour les prédictions de marée : to
 - Le niveau actuel, la tendance (montante ou descendante) et les prochaines marées haute et basse dans l’en-tête.
 - Un repère pour l’heure actuelle et une infobulle au survol ou en glissant le doigt sur le graphique.
 - Un éditeur visuel, avec un **sélecteur de station** qui propose les stations les plus proches de votre domicile, peut utiliser la position de votre appareil et permet de chercher parmi toutes les stations.
-- **Français et anglais**, selon la langue de Home Assistant ou choisi pour chaque carte.
+- **Français, anglais, espagnol (Espagne et Amérique latine), néerlandais et norvégien bokmål**, selon la langue de Home Assistant ou choisi pour chaque carte.
 - Respecte votre thème (clair ou sombre) et votre format d’heure (12 h ou 24 h).
 
 ### Deux façons d’obtenir les données
@@ -164,7 +164,7 @@ Ajoutez ensuite la carte depuis le sélecteur de cartes (cherchez « Mare »).
 | `extreme_label` | `height_time` | `height_time` (hauteur et heure), `height` (hauteur) ou `time` (heure). Pour les longues plages sur des cartes étroites, les étiquettes se réduisent automatiquement à la hauteur, et celles qui se chevauchent encore sont masquées. |
 | `show_now` | `true` | Afficher l’heure actuelle sur le graphique. |
 | `precision` | `2` | Décimales des hauteurs (0 à 3). |
-| `language` | `auto` | `auto` (langue de Home Assistant), `en` ou `fr`. |
+| `language` | `auto` | `auto` (langue de Home Assistant), `en`, `fr`, `es`, `es-419`, `nl` ou `nb`. |
 | `time_format` | `auto` | `auto` (votre profil Home Assistant), `24` (15 h 04, ou 15:04 en anglais) ou `12` (3 h 04 p.m.). |
 
 ### Exemples
