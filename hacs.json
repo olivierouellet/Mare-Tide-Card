@@ -1,6 +1,6 @@
 {
   "name": "Mare Tide Card",
-  "country": "CA",
+  "country": ["CA", "US", "MX", "GB", "NO", "NL", "IE"],
   "render_readme": true,
   "filename": "mare-tide-card.js",
   "homeassistant": "2024.11.0"

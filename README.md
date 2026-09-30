@@ -16,15 +16,15 @@
 
 > ### 🌊 Why “Mare”? · Pourquoi « Mare » ?
 >
-> *Mare* is Latin for **sea**. The name comes from Canada’s motto, ***A mari usque ad mare*** (“from sea to sea”, Psalm 72:8), because the card covers tide stations on every Canadian coast. It is pronounced **MAH-reh** (/ˈma.re/), two syllables: not the English *mare* (a horse), and not the French *mare* (a pond).
+> *Mare* is Latin for **sea**. The name comes from Canada’s motto, ***A mari usque ad mare*** (“from sea to sea”, Psalm 72:8), where the project began. It is pronounced **MAH-reh** (/ˈma.re/), two syllables: not the English *mare* (a horse), and not the French *mare* (a pond).
 >
-> *Mare* signifie **mer** en latin. Le nom vient de la devise du Canada, ***A mari usque ad mare*** (« d’un océan à l’autre », Psaume 72:8), puisque la carte couvre les stations de marée de toutes les côtes canadiennes. On le prononce **MA-ré** (/ˈma.re/), en deux syllabes : ce n’est ni la *mare* aux canards, ni le mot anglais *mare* (une jument).
+> *Mare* signifie **mer** en latin. Le nom vient de la devise du Canada, ***A mari usque ad mare*** (« d’un océan à l’autre », Psaume 72:8), là où le projet a commencé. On le prononce **MA-ré** (/ˈma.re/), en deux syllabes : ce n’est ni la *mare* aux canards, ni le mot anglais *mare* (une jument).
 
 ---
 
 ## English
 
-A Home Assistant dashboard card for Canadian tides from **Fisheries and Oceans Canada (DFO)**.
+A Home Assistant dashboard card for tide predictions: every country the [Mare integration](https://github.com/olivierouellet/Mare) covers (Canada, the United States, Mexico, the United Kingdom, Norway, the Netherlands and Ireland), or Canadian stations directly from **Fisheries and Oceans Canada (DFO)**.
 
 - The tide curve with **every high and low tide labelled** with its height and time.
 - A time range of 6 to 72 hours, starting at midnight or around now.
@@ -36,8 +36,8 @@ A Home Assistant dashboard card for Canadian tides from **Fisheries and Oceans C
 
 ### Two ways to get the data
 
-1. **From the Mare integration (recommended).** Install the [Mare integration](https://github.com/olivierouellet/Mare) and pick its *tide level* sensor. Tides are downloaded once by Home Assistant, and you also get sensors for automations. To change the station, use *Configure* on the integration.
-2. **Directly from DFO.** Pick a station in the card editor; no integration needed. Each open dashboard downloads the predictions itself (cached for 6 hours).
+1. **From the Mare integration (recommended).** Install the [Mare integration](https://github.com/olivierouellet/Mare) and pick its *tide level* sensor. Tides are downloaded once by Home Assistant, and you also get sensors for automations. Works for every country the integration covers. To change the station, use *Configure* on the integration (the editor’s *Change this sensor’s station* link needs Mare 2.0 or later).
+2. **Directly from DFO (Canada only).** Pick a station in the card editor; no integration needed. Each open dashboard downloads the predictions itself (cached for 6 hours).
 
 ### Installation
 
@@ -112,7 +112,7 @@ Data: Fisheries and Oceans Canada. Predictions are not for navigation.
 
 ## Français
 
-Une carte de tableau de bord Home Assistant pour les marées canadiennes de **Pêches et Océans Canada (MPO)**.
+Une carte de tableau de bord Home Assistant pour les prédictions de marée : tous les pays couverts par l’[intégration Mare](https://github.com/olivierouellet/Mare#français) (Canada, États-Unis, Mexique, Royaume-Uni, Norvège, Pays-Bas et Irlande), ou les stations canadiennes directement de **Pêches et Océans Canada (MPO)**.
 
 - La courbe de marée avec **chaque marée haute et basse identifiée** par sa hauteur et son heure.
 - Une plage de 6 à 72 heures, à partir de minuit ou autour de maintenant.
@@ -124,8 +124,8 @@ Une carte de tableau de bord Home Assistant pour les marées canadiennes de **P�
 
 ### Deux façons d’obtenir les données
 
-1. **Avec l’intégration Mare (recommandé).** Installez l’[intégration Mare](https://github.com/olivierouellet/Mare#français) et choisissez son capteur de *niveau de marée*. Home Assistant télécharge les marées une seule fois, et vous obtenez aussi des capteurs pour vos automatisations. Pour changer de station, utilisez *Configurer* sur l’intégration.
-2. **Directement de MPO.** Choisissez une station dans l’éditeur de la carte; aucune intégration requise. Chaque tableau de bord ouvert télécharge lui-même les prédictions (conservées en cache 6 heures).
+1. **Avec l’intégration Mare (recommandé).** Installez l’[intégration Mare](https://github.com/olivierouellet/Mare#français) et choisissez son capteur de *niveau de marée*. Home Assistant télécharge les marées une seule fois, et vous obtenez aussi des capteurs pour vos automatisations. Fonctionne pour tous les pays couverts par l’intégration. Pour changer de station, utilisez *Configurer* sur l’intégration (le lien *Changer la station de ce capteur* de l’éditeur requiert Mare 2.0 ou plus récent).
+2. **Directement de MPO (Canada seulement).** Choisissez une station dans l’éditeur de la carte; aucune intégration requise. Chaque tableau de bord ouvert télécharge lui-même les prédictions (conservées en cache 6 heures).
 
 ### Installation
 
