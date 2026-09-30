@@ -33,7 +33,8 @@ w.customCards = w.customCards || [];
 w.customCards.push({
   type: CARD_TAG,
   name: 'Mare Tide Card',
-  description: 'Tides for Canadian stations (DFO / MPO) with every high and low tide. English / français.',
+  description:
+    'Tides with every high and low labelled, from the Mare integration or directly from DFO / MPO. English / français.',
   preview: true,
 });
 

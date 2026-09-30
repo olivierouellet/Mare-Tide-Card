@@ -4,7 +4,7 @@ export const EDITOR_TAG = 'mare-tide-card-editor';
 export const PICKER_TAG = 'mare-station-picker';
 
 /** Integration domain of the companion Home Assistant integration. */
-export const INTEGRATION_DOMAIN = 'dfo_tides';
+export const INTEGRATION_DOMAIN = 'mare_tides';
 
 /** Fetched window relative to local midnight today; mirrors the integration. */
 export const WINDOW_DAYS_BEFORE = 1;
