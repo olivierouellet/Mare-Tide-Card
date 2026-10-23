@@ -7,10 +7,10 @@ import prettierConfig from 'eslint-config-prettier';
 
 export default [
   {
-    ignores: ['dist', 'node_modules', '*.config.js'],
+    ignores: ['dist', 'node_modules', '*.config.js', 'vitest.config.ts'],
   },
   {
-    files: ['src/**/*.ts'],
+    files: ['src/**/*.ts', 'tests/**/*.ts'],
     languageOptions: {
       parser: tsParser,
       parserOptions: {
