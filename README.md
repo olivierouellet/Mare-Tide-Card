@@ -100,10 +100,11 @@ language: fr
 
 ### Development
 
-- `yarn install`, then `yarn build` (lint, type check, bundle to `dist/`).
+- `yarn install`, then `yarn build` (lint, translations, type check, tests, bundle to `dist/`).
 - `yarn start` rebuilds on change and serves on port 5050 (not 5000, which macOS uses for AirPlay):
   - `http://localhost:5050/` is a test page with a mock Home Assistant: several configurations, light/dark, EN/FR, phone width and the editor. URL options: `?dark&lang=fr&tf=24&width=320&direct&only=editor`.
   - Add `http://<your-computer>:5050/mare-tide-card.js` as a dashboard resource to try the live build in Home Assistant.
+- See [CONTRIBUTING.md](CONTRIBUTING.md) and [SECURITY.md](SECURITY.md).
 - Scaffolded from [custom-cards/boilerplate-card](https://github.com/custom-cards/boilerplate-card).
 
 Data: Fisheries and Oceans Canada. Predictions are not for navigation.
@@ -188,10 +189,11 @@ language: fr
 
 ### Développement
 
-- `yarn install`, puis `yarn build` (analyse, vérification des types et paquet dans `dist/`).
+- `yarn install`, puis `yarn build` (analyse, traductions, vérification des types, tests et paquet dans `dist/`).
 - `yarn start` recompile à chaque modification et sert les fichiers sur le port 5050 (pas 5000, utilisé par AirPlay sur macOS) :
   - `http://localhost:5050/` est une page de test avec un Home Assistant simulé : plusieurs configurations, clair/sombre, FR/EN, largeur de téléphone et l’éditeur. Options d’URL : `?dark&lang=fr&tf=24&width=320&direct&only=editor`.
   - Ajoutez `http://<votre-ordinateur>:5050/mare-tide-card.js` comme ressource de tableau de bord pour essayer la version en développement dans Home Assistant.
+- Voir [CONTRIBUTING.md](CONTRIBUTING.md) et [SECURITY.md](SECURITY.md).
 - Basée sur [custom-cards/boilerplate-card](https://github.com/custom-cards/boilerplate-card).
 
 Données : Pêches et Océans Canada. Les prédictions ne doivent pas servir à la navigation.
